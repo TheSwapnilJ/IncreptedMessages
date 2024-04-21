@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Binary Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Binary Converter</h2>
+    <textarea id="textInput" placeholder="Enter your message"></textarea>
+    <button id="convertButton" onclick="convert()">Convert to Binary</button>
+    <button id="copyButton" onclick="copyText()" disabled>Copy</button>
+    <button id="pasteButton" onclick="pasteText()">Paste</button>
+    <textarea id="output" placeholder="Converted text will appear here" readonly></textarea>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
